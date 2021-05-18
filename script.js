@@ -41,5 +41,7 @@ img.setAttribute('src', 'https://mtx--c.na152.content.force.com/profilephoto/729
 img.setAttribute('style', 'width:100%')
 
 function apicall() {
-    fetch("http://integration-team.us-e2.cloudhub.io/api/getData")
+    fetch("http://localhost:8081/api/getData",{
+            mode: 'no-cors',
+    })
 }
