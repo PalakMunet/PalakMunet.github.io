@@ -1,6 +1,6 @@
 
     async function apicall() {
-    let res = await fetch("https://sf-appflow-demo-kss.s3.ap-south-1.amazonaws.com/cdc-s3-demo/2022/84087e70c9e8a53c5498af2cccb8cb46-0061FB6186062702C2-2022-02-03T05%3A00%3A59s3://sf-appflow-demo-kss/cdc-s3-demo/2022/84087e70c9e8a53c5498af2cccb8cb46-0061FB6186062702C2-2022-02-03T05:00:59")
+    let res = await fetch("https://sf-appflow-demo-kss.s3.ap-south-1.amazonaws.com/site-demo/KSS+POC/placeInfo/places.json")
     // let res = await fetch("./placeInfo/places.json")
     let data = await res.json()
     console.log(data)
